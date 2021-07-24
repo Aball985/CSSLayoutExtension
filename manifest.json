@@ -1,0 +1,19 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "CSS Debug - Layout Tool",
+  "description": "Easily remove bugs from your layouts.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/favicon16x16.png",
+    "128": "icons/favicon128x128.png"
+  },
+  "browser_action": {
+    "default_title": "CSS Debug - Layout Tool"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["<all_urls>"]
+}

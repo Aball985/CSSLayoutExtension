@@ -1,0 +1,40 @@
+* {
+  outline: 1px solid red !important;
+}
+
+.layout-debugger-target-active {
+  outline-color: #f694c1 !important;
+}
+
+.layout-debugger-info {
+  position: fixed !important;
+  z-index: 9999 !important;
+  top: 10px !important;
+  left: 10px !important;
+  padding: 8px 10px !important;
+  font-family: Arial !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  color: #ffffff !important;
+  background: #24292f !important;
+  border: 1px solid #ffffff;
+  border-radius: 3px !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  outline: none !important;
+  transition: all 0.2s ease !important;
+  pointer-events: none !important;
+}
+
+.layout-debugger-info b {
+  font-weight: bold !important;
+}
+
+.layout-debugger-info * {
+  outline: none !important;
+}
+
+.layout-debugger-info-active {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
